@@ -18,7 +18,7 @@ Architecture: Vision Transformer (ViT-B_16) with transfer learning from ImageNet
 Modifications: Output layer customized for four-class classification.
 Why ViT?: ViT captures global dependencies within images better than CNNs, crucial for recognizing subtle patterns in medical imaging.
 ### The following is the architectural overview of our proposed model:
-![architecture](https://github.com/user-attachments/assets/206172ea-5df7-4ed2-8695-5321414a4f80)
+![Architecture of capstone](https://github.com/user-attachments/assets/5a4512da-b04c-4351-9f6e-b722b2277996)
 
 # Web Application
 Built using CSS, and JavaScript to demonstrate predictions in real-time.
