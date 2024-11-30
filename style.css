@@ -1,0 +1,194 @@
+/* Universal Styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Project Title Section */
+.project-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-title .logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.project-title h1 {
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.project-title h3 {
+  font-size: 20px;
+  color: #495089;
+  margin-bottom: 20px;
+}
+
+.project-title .contributors {
+  margin-top: 20px;
+}
+
+.project-title .contributors p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.project-title .contributors ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-title .contributors li {
+  font-size: 16px;
+  color: #495089;
+  margin: 5px 0;
+}
+
+/* Form Container Styling */
+.form-container {
+  background-color: #dde6f3;
+  font-size: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+}
+
+#drop-area {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  border-radius: 10px;
+  border: 2px dashed #bbb5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#drop-area:hover {
+  border-color: #495089;
+  background: #f7f8ff;
+}
+
+#img-view {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: #f7f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Error Message Styling */
+#error-message {
+  display: none;
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Button Styling */
+.button {
+  padding: 12px 20px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(33, 212, 253, 0.5);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .project-title h1 {
+    font-size: 28px;
+  }
+
+  .project-title h3 {
+    font-size: 16px;
+  }
+
+  .project-title .contributors p {
+    font-size: 16px;
+  }
+
+  .project-title .contributors li {
+    font-size: 14px;
+  }
+
+  .project-title .logo {
+    width: 80px;
+  }
+
+  #drop-area {
+    height: 250px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-title h1 {
+    font-size: 24px;
+  }
+
+  .project-title h3 {
+    font-size: 14px;
+  }
+
+  .project-title .logo {
+    width: 70px;
+  }
+
+  #drop-area {
+    height: 200px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
