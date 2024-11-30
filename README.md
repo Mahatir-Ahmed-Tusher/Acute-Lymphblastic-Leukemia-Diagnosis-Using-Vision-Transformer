@@ -53,9 +53,9 @@ Achieved 98.81% accuracy on the test dataset.
 High performance in differentiating ALL subtypes, showcasing the efficacy of Vision Transformers for medical imaging.
 
 # Contributors:
-Mahatir Ahmed Tusher
-Lakshmipathi Rao Kocherlakota
-Saket Choudary Kongara
+Mahatir Ahmed Tusher \
+Lakshmipathi Rao Kocherlakota \
+Saket Choudary Kongara \
 Sree Nikhil Velicheti  
 
 # Acknowledgments
