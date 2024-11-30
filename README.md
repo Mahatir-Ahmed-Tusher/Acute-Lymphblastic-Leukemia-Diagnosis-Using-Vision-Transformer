@@ -17,6 +17,8 @@ Download it from: https://www.kaggle.com/datasets/mehradaria/leukemia/data
 Architecture: Vision Transformer (ViT-B_16) with transfer learning from ImageNet.
 Modifications: Output layer customized for four-class classification.
 Why ViT?: ViT captures global dependencies within images better than CNNs, crucial for recognizing subtle patterns in medical imaging.
+### The following is the architectural overview of our proposed model:
+![architecture](https://github.com/user-attachments/assets/206172ea-5df7-4ed2-8695-5321414a4f80)
 
 # Web Application
 Built using CSS, and JavaScript to demonstrate predictions in real-time.
@@ -28,12 +30,13 @@ Visualization: Dataset distribution charts, model accuracy plots, and heatmaps.
 Model Deployment: Includes API integration for serving predictions.
 Installation
 
-Clone the repository:
+Clone the repository: https://github.com/Mahatir-Ahmed-Tusher/Acute-Lymphblastic-Leukemia-Diagnosis-Using-Vision-Transformer.git
 
 # Requirements
 Install dependencies:
 pip install -r requirements.txt
 ### To run the web application:
+Following commands have to be installed in your system: \
 fastapi==0.103.2 \
 torch==2.4.1 \
 torchvision==0.19.1 \
@@ -42,10 +45,12 @@ Pillow==10.4.0 \
 jinja2==3.1.4 \
 
 # How to Diagnose:
-Upload an image via the web interface.
+Upload an image via the web interface. The image has to be any PBS (Peripheral Blood Smear) image \
+![image](https://github.com/user-attachments/assets/320393d7-7f3f-4197-afee-ccf98cb3c454) \
+Then, click on "Predict" and your diagnosis will be done: \
+![image](https://github.com/user-attachments/assets/7d75ec2a-bb7f-4ec3-8c44-c08f12916334)
 
 View predictions and class probabilities in real-time.
-Results
 
 Achieved 98.81% accuracy on the test dataset.
 High performance in differentiating ALL subtypes, showcasing the efficacy of Vision Transformers for medical imaging.
