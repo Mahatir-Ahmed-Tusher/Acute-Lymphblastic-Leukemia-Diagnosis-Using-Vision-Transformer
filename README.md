@@ -33,9 +33,6 @@ Installation
 Clone the repository: https://github.com/Mahatir-Ahmed-Tusher/Acute-Lymphblastic-Leukemia-Diagnosis-Using-Vision-Transformer.git
 
 # Requirements
-Install dependencies:
-pip install -r requirements.txt
-### To run the web application:
 Following commands have to be installed in your system: \
 fastapi==0.103.2 \
 torch==2.4.1 \
