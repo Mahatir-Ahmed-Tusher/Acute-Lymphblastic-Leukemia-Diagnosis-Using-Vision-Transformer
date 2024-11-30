@@ -11,6 +11,7 @@ Source: Blood Cells Cancer (ALL) dataset, prepared in Taleqani Hospital, Tehran,
 Images: 3256 PBS images classified into benign and malignant (3 ALL subtypes).
 Preprocessing: Images resized, normalized, and augmented for better generalization.
 Model
+Download it from: https://www.kaggle.com/datasets/mehradaria/leukemia/data
 
 # Architectural Overview
 Architecture: Vision Transformer (ViT-B_16) with transfer learning from ImageNet.
@@ -51,4 +52,4 @@ High performance in differentiating ALL subtypes, showcasing the efficacy of Vis
 
 # Acknowledgments
 Based on the dataset published by Ghaderzadeh et al. in their paper:
-"A fast and efficient CNN model for B-ALL diagnosis and its subtypes classification using peripheral blood smear images."
+Ghaderzadeh, M., Aria, M., Hosseini, A., Asadi, F., Bashash, D., & Abolghasemi, H. (2021). A fast and efficient CNN model for B‐ALL diagnosis and its subtypes classification using peripheral blood smear images. International Journal of Intelligent Systems, 37(8), 5113–5133. https://doi.org/10.1002/int.22753
