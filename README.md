@@ -45,15 +45,21 @@ Pillow==10.4.0 \
 jinja2==3.1.4 \
 
 # How to Diagnose:
-Upload an image via the web interface. The image has to be any PBS (Peripheral Blood Smear) image \
+### Upload an image via the web interface. The image has to be any PBS (Peripheral Blood Smear) image \
 ![image](https://github.com/user-attachments/assets/320393d7-7f3f-4197-afee-ccf98cb3c454) \
-Then, click on "Predict" and your diagnosis will be done: \
+### Then, click on "Predict" and your diagnosis will be done: \
 ![image](https://github.com/user-attachments/assets/7d75ec2a-bb7f-4ec3-8c44-c08f12916334)
 
 View predictions and class probabilities in real-time.
 
 Achieved 98.81% accuracy on the test dataset.
 High performance in differentiating ALL subtypes, showcasing the efficacy of Vision Transformers for medical imaging.
+
+# Contributors:
+Mahatir Ahmed Tusher
+Lakshmipathi Rao Kocherlakota
+Saket Choudary Kongara
+Sree Nikhil Velicheti  
 
 # Acknowledgments
 Based on the dataset published by Ghaderzadeh et al. in their paper:
